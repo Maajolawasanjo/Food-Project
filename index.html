@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This websites offer the best content for all kinds of food a customer would like."
+    />
+    <meta
+      name="keywords"
+      content="Food, menu, expert, testimonials, html, etc"
+    />
+    <title>A Responsive Food Website</title>
+    <!-- --------------------CSS File------------------- -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./CSS/Responsive.css" />
+
+    <!-- ------------------FONT awesome------------------ -->
+    <link rel="stylesheet" href="../CSS/all.css" />
+
+    <!-- --------------------------FONT Family------------------- -->
+    <link rel="stylesheet" href="../CSS/Fonts.css" />
+
+    <!-- -------------------------AOS------------------------------- -->
+    <link rel="stylesheet" href="../CSS/aos.css" />
+  </head>
+  <body>
+    <header class="header" id="haeder">
+      <nav id="myHeader">
+        <h1>
+          <a href="">food<span>.</span></a>
+        </h1>
+        <div class="navlinks" id="navlinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul class="nav">
+            <li class="navlink"><a href="#">Home</a></li>
+            <li class="navlink"><a href="#about">About</a></li>
+            <li class="navlink"><a href="#menu">menu</a></li>
+            <li class="navlink"><a href="#expert">experts</a></li>
+            <li class="navlink"><a href="#testimonial">testimomials</a></li>
+            <li class="navlink"><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+
+    <main>
+      <div class="center" data-aos="fade-up" data-aos-delay="200">
+        <h1>always choose good</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          architecto minus! Aperiam, ipsum neque!
+        </p>
+        <a href="#menu" class="btn">our menu</a>
+      </div>
+
+      <!-- -----------------------About-------------------------- -->
+      <section class="about" id="about">
+        <div class="row">
+          <div class="about-content" data-aos="fade-right" data-aos-delay="200">
+            <h2><span>a</span>bout us</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequuntur autem eius earum recusandae animi? Eos quo, impedit
+              reiciendis repellendus at harum quam voluptatum minus omnis
+              consequuntur accusamus ipsam porro voluptatibus?<br /><br />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus tempore ipsam amet, adipisci et ducimus esse minus
+              inventore iusto odio qui numquam quibusdam modi. Inventore
+              perferendis neque fugiat fugit eaque?
+            </p>
+          </div>
+          <div class="about-content" data-aos="fade-left" data-aos-delay="250">
+            <div class="imgbox">
+              <img src="./images/food (1).jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
